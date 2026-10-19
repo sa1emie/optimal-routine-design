@@ -13,8 +13,10 @@ Why "almost"? Because the gap between a good routine and a theoretically perfect
 - [3. Programming variables](#3-programming-variables)
 - [4. Anatomy of a session](#4-anatomy-of-a-session)
 - [5. Progression, stalls and rotation](#5-progression-stalls-and-rotation)
+- [5.1. The stall rule, operationally](#51-the-stall-rule-operationally)
 - [6. Periodization and deloads](#6-periodization-and-deloads)
 - [7. A worked example week](#7-a-worked-example-week)
+- [7.1. Worked example: a priority-muscle specialization](#71-worked-example-a-priority-muscle-specialization)
 - [8. Logging what matters](#8-logging-what-matters)
 - [9. Limits of this analysis](#9-limits-of-this-analysis)
 - [References](#references)
@@ -166,6 +168,8 @@ Practical approach: start near the low end of the range for a muscle you are not
 
 RIR (reps in reserve) is how close a set ends to failure: RIR 2 means two more reps were probably available. In meta-regressions across the literature, hypertrophy increased as sets ended closer to failure, while strength gains were far less sensitive to it across a wide range of efforts (Robinson et al., 2024). A controlled trial with fixed loads found the same direction: letting more reps happen before ending the set (more velocity loss) produced more quadriceps growth, at the cost of some jump performance (Pareja-Blanco et al., 2017).
 
+A trial in trained lifters found the same quadriceps growth over eight weeks whether the sets went to momentary failure or stopped at one to two reps in reserve, with more fatigue and more velocity loss at failure (Refalo et al., 2024). That is the practical case for the defaults below.
+
 Working defaults:
 
 - Most working sets: RIR 1-3. This is where most of the growth sits for most people, with a fatigue cost that can still be recovered from session to session.
@@ -197,10 +201,16 @@ The evidence for that emphasis:
 - In a trial with trained lifters, "lengthened partial" reps over the stretch half of the movement produced similar muscle growth to full-range reps over eight weeks (Wolf et al., 2025). Partials are a tool rather than cheating, and the stretch side is the side that carries the result.
 - Reviewing the muscle-length literature, Pedrosa et al. (2026) concluded that training a muscle closer to its long lengths appears to favor growth when the exercise applies real tension in that position.
 - The clearest single comparison comes from the triceps: overhead cable extensions, where the long head sits stretched, grew the long head substantially more than pushdowns, where it sits short, under otherwise matched training (Maeo et al., 2023).
+- The calf shows the same shape more sharply. Training only the stretched portion of the calf raise's range, stopping at neutral rather than pressing through into plantarflexion, grew the medial gastrocnemius 15.2% against 6.7% for full range and 3.4% for the shortened portion (Kassiano et al., 2023).
+- For the elbow flexors the position changes which head grows rather than how much. Incline curls grew the biceps brachii more than preacher curls did, while preacher curls grew the brachialis and the brachioradialis more, and total elbow flexor growth was the same either way (Kobayashi et al., 2026).
 
 Practical application is mostly exercise choice, and section 2 carries the per-pattern cues. The short version: pick variations that load the target in its stretched position (incline pressing for the upper chest, overhead extensions for the long head of the triceps, deep squats for the quadriceps), do not cut the bottom of the rep short to chase load, and control the eccentric instead of dropping through it. Lengthened partials near the end of a set are a legitimate way to extend local fatigue.
 
-One caveat: length emphasis changes where growth happens more than whether it happens. Effort, volume, and progression still dominate the outcome. Do not trade a heavy set for a fancy one.
+Two caveats, and the second one is the important one. First, length emphasis changes where growth happens more than whether it happens. Effort, volume, and progression still dominate the outcome, and a heavy set should not be traded for a fancy one.
+
+Second, a 2025 meta-analysis of regional hypertrophy found that training at longer and shorter mean muscle lengths produced similar growth, with a high probability of practical equivalence across the proximal, mid-belly and distal sites (Varovic et al., 2025). Read that as a limit on the general rule rather than a contradiction of it. The specific long-length comparisons, the triceps long head, the stretched end of the elbow range, and the stretched half of the calf, remain the strongest evidence in this section, and they are the ones to act on. The broad version of the claim, that any muscle grows more from being trained long, is not supported.
+
+A further limit applies to the effect sizes. The exercise-selection trials behind these comparisons were run with untrained or semi-trained adults training 40 to 60 direct sets per week. The direction of each finding transfers. The size of the effect does not.
 
 ### 3.6 Exercise selection and variation
 
@@ -231,7 +241,7 @@ A few mechanics worth making explicit:
 - **Ramp sets do not count as hard sets.** They practice the pattern and rehearse the load. The weekly volume totals in section 3.1 begin with the first set taken close to failure.
 - **Session size:** four to seven exercises, which usually lands around 60 to 90 minutes including rest. If sessions regularly run past that, the routine has more exercise slots than it has quality to fill, and trimming one or two accessories costs less than it looks.
 - **Per-session volume per muscle:** roughly 2 to 6 hard sets, which is what the weekly band implies once volume is spread across two or three sessions. Ten sets in one session for a single muscle is not forbidden, but the last five are usually worse sets than the same five placed earlier in the week.
-- **Order later in the session is negotiable.** Isolation work for a priority muscle can move ahead of a secondary compound if the priority needs the freshness. Supersets are fine for saving time on accessory work. Pairing heavy compounds back to back usually degrades the second one.
+- **Order later in the session is negotiable.** Isolation work for a priority muscle can move ahead of a secondary compound if the priority needs the freshness. Supersets are fine for saving time on accessory work, and a meta-analysis of superset against traditional prescriptions found the same total repetitions and the same volume load in a shorter session, at the cost of a higher metabolic cost (Zhang et al., 2025). Pairing heavy compounds back to back usually degrades the second one.
 
 ## 5. Progression, stalls and rotation
 
@@ -250,6 +260,27 @@ Two rules keep the log honest. A rep gained with visibly degraded form is not a 
 2. **Check the volume for that muscle** against the 10 to 20 set band. Six weekly sets for a stalled muscle may be too little. Twenty-five may be spending recovery on junk.
 3. **Rotate the variation** in that pattern slot (section 3.6). Same pattern, same effort target, new exercise, usually keeping the rep range.
 4. **Deload** if performance has declined across multiple lifts, joints ache, or sleep and mood are sliding. Section 6 covers how.
+
+### 5.1 The stall rule, operationally
+
+The stall in section 5 is defined at a fixed load. In practice the load moves, and the comparison has to handle that. Two decisions make it work.
+
+**Compare average reps per set, not total reps.** Total reps conflate the set count with the rep range, so going from three sets of eight to four sets of eight looks like progress when the stimulus has not changed at all. Average reps per set at a stated load is the honest unit, and it matches what double progression actually acts on.
+
+**Allow a weight jump the rep cost it legitimately has.** A weight jump can cost the difference between the top of the rep range and the bottom of it, on every set. For three sets of 6 to 8 that is six total reps, and for three sets of 10 to 12 it is also six. A comparison that tolerates less than that will score a normal double-progression step as a stall, and two of those will rotate the exercise away from the load the lifter just earned.
+
+| Week to week | Load | Average reps per set | Read | Action |
+|---|---|---|---|---|
+| A then B | up | at or above the floor of the range | progress | hold the load and rebuild the reps |
+| A then B | up | below the floor of the range | overshoot | the jump was too big, return to the previous load |
+| A then B | same | up | progress | keep going |
+| A then B | same | flat | hold | one flat week is noise, repeat it unchanged |
+| A then B | same | down | stall | the second one in a row triggers a rotation |
+| A then B | down | any | regression | unless the week was flagged as a deload |
+
+Two exceptions belong inside the rule. A flagged deload week does not count toward the streak, and the week after it is compared against the last real week rather than against the deload, because the deload was supposed to lower the performance. And a new variation gets a baseline week and two comparisons before it can trigger a rotation of its own, because any new exercise underperforms while the skill is still being built.
+
+Effort breaks the remaining tie. If the load and the reps are both flat and the final set ended closer to failure than the week before, that is progress. If it ended further from failure, the set is drifting and it counts as a flat week.
 
 ## 6. Periodization and deloads
 
@@ -302,6 +333,65 @@ Spacing: leave roughly 48 hours between sessions that share heavy patterns, whic
 
 Every muscle lands between 6 and 9 effective sets, which is the honest shape of a three-day week: clearly productive, and under the 10 to 20 band that a dedicated priority would push toward. To raise a muscle, add its direct work first (two more squat sets and a second leg-extension set would move quadriceps from 9 toward 13), and place it earlier in its session (section 4).
 
+### 7.1 Worked example: a priority-muscle specialization
+
+The week in section 7 spreads volume evenly across the six patterns. That is the right default and the wrong shape when one group of muscles is the goal. This worked example applies the same method to a lifter whose priority is the chest, the elbows and the shoulders, on a three-day upper, lower, upper template.
+
+<div align="center"><img src="assets/fig-priority-allocation.svg" width="100%" alt="Chart: effective hard sets per muscle for a priority specialization, with the 10 to 20 set working range shaded and the priority muscles highlighted"></div>
+
+| Day | Slot | Work | Sets | Reps | RIR |
+|---|---|---|---|---|---|
+| 1 | Horizontal press | Incline press, 30 degrees | 3 | 6-8 | 1-2 |
+| 1 | Vertical pull | Machine pull-down | 3 | 8-10 | 1-2 |
+| 1 | Chest isolation | Cable fly or pec deck | 2 | 10-12 | 0-1 |
+| 1 | Vertical press | Seated dumbbell press | 2 | 8-10 | 1-2 |
+| 1 | Posterior shoulder | Reverse pec deck | 2 | 12-15 | 0-1 |
+| 1 | Arms, lengthened first | Overhead cable extension, then incline curl | 6 | 10-12 | 1, then 0-1 |
+| 2 | Squat | Pendulum squat | 3 | 8-10 | 1-2 |
+| 2 | Hinge | Romanian deadlift | 3 | 6-8 | 2 |
+| 2 | Knee flexion | Seated leg curl | 3 | 10-12 | 0-1 |
+| 2 | Calves | Calf raise, partial range at long length | 3 | 12-20 | 0-1 |
+| 2 | Arms, lengthened first | Incline EZ-bar extension, then preacher curl | 5 | 10-12, then 8-12 | 1 |
+| 2 | Rotator cuff | Cable external rotation | 2 | 12-15 | 1-2 |
+| 3 | Horizontal press | Machine chest press | 3 | 8-10 | 1, 0 on the last set |
+| 3 | Horizontal pull | Chest-supported row | 3 | 8-10 | 1-2 |
+| 3 | Chest isolation | Low-to-high cable fly | 3 | 10-12 | 0-1 |
+| 3 | Horizontal and vertical pull | Wide-grip row or lat pull-down | 2 | 10-12 | 1-2 |
+| 3 | Lateral delts | Cable or dumbbell lateral raise | 3 | 12-15 | 0-1 |
+| 3 | Arms, lengthened first | EZ-bar skullcrusher, then hammer curl | 6 | 10-12 | 1 |
+
+Fifty-seven working sets across three sessions, which is about fifty to fifty-five minutes each with the rest times from section 3.4.
+
+Five decisions in that table are worth naming, because each of them comes from one of the sections above.
+
+**The priority muscles get their own slots, not a bigger share of someone else's.** The chest, the triceps and the biceps each have dedicated isolation work, because indirect work alone will not carry a priority muscle to its ceiling. The solid part of each bar in the figure is the direct count.
+
+**A two-upper template leaves a hole at the back of the shoulder, and the hole has to be filled on purpose.** Pressing loads the front of the shoulder through five different movements, and the back of the shoulder only as a stabiliser, with the cuff doing nothing directly at all (Rabello et al., 2024). A reverse pec deck and a cable external rotation cost four sets and close the largest asymmetry in the week.
+
+**The calf slot is narrowed, not lengthened.** Training only the stretched portion of the calf raise's range, and stopping at neutral instead of pressing through into plantarflexion, grew the medial gastrocnemius 15.2% against 6.7% for full range (Kassiano et al., 2023). The triceps shows the same shape, with the overhead position growing the long head 1.5 times more than the neutral-arm position (Maeo et al., 2023). Both are arguments for choosing a better angle rather than for doing more work.
+
+**The arms are trained at three exposures with nine sets each, and the effort target stays at zero to one.** The case for three exposures is weaker than it looks. Frequency adds little to size once weekly volume is equated, and it helps strength more than it helps hypertrophy (Pelland et al., 2026). The volume does the work. The reason to spread it across three days is that ten sets of curls in one session are ten worse sets than the same ten spread over three.
+
+**The lengthened movement goes first in every arm superset.** A lengthened-position set carries more mechanical tension and more soreness, and it should not be performed on a joint that is already warm.
+
+The volume audit exposes what the session budget does not allow:
+
+| Muscle | Effective sets | Working range | Read |
+|---|---|---|---|
+| Chest | 11 | 10-20 | Priority, at the low end |
+| Biceps | 13 | 10-20 | Priority, comfortable |
+| Triceps | 11 | 10-20 | Priority, at the low end |
+| Back and lats | 8 | 10-16 | Short. The first slot to raise |
+| Hamstrings | 6 | 8-14 | Short |
+| Posterior deltoid | 6 | 6-12 | New direct work |
+| Rotator cuff | 2 | 6-12 | New, and still the smallest |
+| Quadriceps | 4.5 | 8-14 | Short, and the rectus femoris is the reason |
+| Glute max | 3 | 8-14 | Short |
+
+The muscles below the band are the honest cost of a fifty-minute session, and the cheapest fixes have an order. Two sets of leg extension for the rectus femoris come first, because leg extensions grew that head more than a squat did at every site measured (Kassiano et al., 2026), and because the response improves with a shallower hip angle (Larsen et al., 2025). Then two sets of hip thrust for the glute max, which loads the glutes with the hamstrings short and so complements the hinge instead of repeating it. Then two sets of cable row for the back.
+
+Two scheduling rules carry the rest of the design. The three sessions go on non-consecutive days, because the arm work is three exposures a week and a Monday, Tuesday, Thursday layout puts six hard elbow sets on one day and six more twenty-four hours later. And the two-day fallback is possible but it is a fallback rather than a plan: volume is preserved by adding four lower-body sets to each session, but the arms drop from three exposures to two and the back from two to one. Nothing should be rotated during a two-day block, because the stall signal gets noisier with fewer exposures.
+
 ## 8. Logging what matters
 
 The log exists to support two decisions: what load goes on the bar next session, and whether a stall is real. Everything else is decoration.
@@ -328,28 +418,35 @@ A workable spreadsheet shape: Date | Exercise | Load | Reps per set | RIR (last 
 - **Currency.** Last updated October 2026. Training science moves. Re-verify against the primary sources before building on this.
 
 ## References
-
 1. Bell, L., Strafford, B. W., Coleman, M., Androulakis Korakakis, P., & Nolan, D. (2023). Integrating deloading into strength and physique sports training programmes: An international Delphi consensus approach. *Sports Medicine - Open*, 9, 87. https://doi.org/10.1186/s40798-023-00633-0
-2. Coleman, M., Burke, R., Augustin, F., Piñero, A., Maldonado, J., Fisher, J. P., Israetel, M., Androulakis Korakakis, P., Swinton, P., Oberlin, D., & Schoenfeld, B. J. (2024). Gaining more from doing less? The effects of a one-week deload period during supervised resistance training on muscular adaptations. *PeerJ*, 12, e16777. https://doi.org/10.7717/peerj.16777
-3. Fonseca, R. M., Roschel, H., Tricoli, V., de Souza, E. O., Wilson, J. M., Laurentino, G. C., Aihara, A. Y., de Souza Leão, A. R., & Ugrinowitsch, C. (2014). Changes in exercises are more effective than in loading schemes to improve muscle strength. *Journal of Strength and Conditioning Research*, 28(11), 3085-3092. https://doi.org/10.1519/JSC.0000000000000539
-4. Haugen, M. E., Vårvik, F. T., Larsen, S., Haugen, A. S., van den Tillaar, R., & Bjørnsen, T. (2023). Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance: A systematic review and meta-analysis. *BMC Sports Science, Medicine and Rehabilitation*, 15, 103. https://doi.org/10.1186/s13102-023-00713-4
-5. Kassiano, W., Nunes, J. P., Costa, B., Ribeiro, A. S., Schoenfeld, B. J., & Cyrino, E. S. (2022). Does varying resistance exercises promote superior muscle hypertrophy and strength gains? A systematic review. *Journal of Strength and Conditioning Research*, 36(6), 1753-1762. https://doi.org/10.1519/JSC.0000000000004258
-6. Maeo, S., Wu, Y., Huang, M., Sakurai, H., Kusagawa, Y., Sugiyama, T., Kanehisa, H., & Isaka, T. (2023). Triceps brachii hypertrophy is substantially greater after elbow extension training performed in the overhead versus neutral arm position. *European Journal of Sport Science*, 23(7), 1240-1250. https://doi.org/10.1080/17461391.2022.2100279
-7. Morton, R. W., Oikawa, S. Y., Wavell, C. G., Mazara, N., McGlory, C., Quadrilatero, J., Baechler, B. L., Baker, S. K., & Phillips, S. M. (2016). Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in resistance-trained young men. *Journal of Applied Physiology*, 121(1), 129-138. https://doi.org/10.1152/japplphysiol.00154.2016
-8. Morton, R. W., Murphy, K. T., McKellar, S. R., Schoenfeld, B. J., Henselmans, M., Helms, E., Aragon, A. A., Devries, M. C., Banfield, L., Krieger, J. W., & Phillips, S. M. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. *British Journal of Sports Medicine*, 52(6), 376-384. https://doi.org/10.1136/bjsports-2017-097608
-9. Ogasawara, R., Yasuda, T., Ishii, N., & Abe, T. (2013). Comparison of muscle hypertrophy following 6-month of continuous and periodic strength training. *European Journal of Applied Physiology*, 113(4), 975-985. https://doi.org/10.1007/s00421-012-2511-9
-10. Pareja-Blanco, F., Rodríguez-Rosell, D., Sánchez-Medina, L., Sanchis-Moysi, J., Dorado, C., Mora-Custodio, R., Yáñez-García, J. M., Morales-Alamo, D., Pérez-Suárez, I., Calbet, J. A. L., & González-Badillo, J. J. (2017). Effects of velocity loss during resistance training on athletic performance, strength gains and muscle adaptations. *Scandinavian Journal of Medicine & Science in Sports*, 27(7), 724-735. https://doi.org/10.1111/sms.12678
-11. Pedrosa, G. F., Pereira, M. R., & Kassiano, W. (2026). The interplay between muscle length, range of motion, and exercise selection: A review. *Sports Medicine International Open*, 10, a27337605. https://doi.org/10.1055/a-2733-7605
-12. Pelland, J. C., Remmert, J. F., Robinson, Z. P., Hinson, S. R., & Zourdos, M. C. (2026). The resistance training dose response: Meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains. *Sports Medicine*, 56(2), 481-505. https://doi.org/10.1007/s40279-025-02344-w
-13. Plotkin, D., Coleman, M., Van Every, D., Maldonado, J., Oberlin, D., Israetel, M., Feather, J., Alto, A., Vigotsky, A. D., & Schoenfeld, B. J. (2022). Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations. *PeerJ*, 10, e14142. https://doi.org/10.7717/peerj.14142
-14. Robinson, Z. P., Pelland, J. C., Remmert, J. F., Refalo, M. C., Jukic, I., Steele, J., & Zourdos, M. C. (2024). Exploring the dose-response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: A series of meta-regressions. *Sports Medicine*, 54(9), 2209-2231. https://doi.org/10.1007/s40279-024-02069-2
-15. Rodríguez-Ridao, D., Antequera-Vique, J. A., Martín-Fuentes, I., & Muyor, J. M. (2020). Effect of five bench inclinations on the electromyographic activity of the pectoralis major, anterior deltoid, and triceps brachii during the bench press exercise. *International Journal of Environmental Research and Public Health*, 17(19), 7339. https://doi.org/10.3390/ijerph17197339
-16. Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Effects of resistance training frequency on measures of muscle hypertrophy: A systematic review and meta-analysis. *Sports Medicine*, 46(11), 1689-1697. https://doi.org/10.1007/s40279-016-0543-8
-17. Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2017). Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. *Journal of Sports Sciences*, 35(11), 1073-1082. https://doi.org/10.1080/02640414.2016.1210197
-18. Singer, A., Wolf, M., Generoso, L., Arias, E., Delcastillo, K., Echevarria, E., Martinez, A., Androulakis Korakakis, P., Refalo, M. C., Swinton, P. A., & Schoenfeld, B. J. (2024). Give it a rest: A systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy. *Frontiers in Sports and Active Living*, 6, 1429789. https://doi.org/10.3389/fspor.2024.1429789
-19. Škarabot, J., Brownstein, C. G., Casolo, A., Del Vecchio, A., & Ansdell, P. (2021). The knowns and unknowns of neural adaptations to resistance training. *European Journal of Applied Physiology*, 121(3), 675-685. https://doi.org/10.1007/s00421-020-04567-3
-20. Wolf, M., Androulakis Korakakis, P., Piñero, A., Mohan, A. E., Hermann, T., Augustin, F., Sapuppo, M., Lin, B., Coleman, M., Burke, R., Nippard, J., Swinton, P. A., & Schoenfeld, B. J. (2025). Lengthened partial repetitions elicit similar muscular adaptations as full range of motion repetitions during resistance training in trained individuals. *PeerJ*, 13, e18904. https://doi.org/10.7717/peerj.18904
-
+2. Bourne, M. N., Williams, M. D., Opar, D. A., Al Najjar, A., Kerr, G. K., & Shield, A. J. (2017). Impact of exercise selection on hamstring muscle activation. *British Journal of Sports Medicine*, 51(13), 1021-1028. https://doi.org/10.1136/bjsports-2015-095739
+3. Coleman, M., Burke, R., Augustin, F., Piñero, A., Maldonado, J., Fisher, J. P., Israetel, M., Androulakis Korakakis, P., Swinton, P., Oberlin, D., & Schoenfeld, B. J. (2024). Gaining more from doing less? The effects of a one-week deload period during supervised resistance training on muscular adaptations. *PeerJ*, 12, e16777. https://doi.org/10.7717/peerj.16777
+4. Fonseca, R. M., Roschel, H., Tricoli, V., de Souza, E. O., Wilson, J. M., Laurentino, G. C., Aihara, A. Y., de Souza Leão, A. R., & Ugrinowitsch, C. (2014). Changes in exercises are more effective than in loading schemes to improve muscle strength. *Journal of Strength and Conditioning Research*, 28(11), 3085-3092. https://doi.org/10.1519/JSC.0000000000000539
+5. Haugen, M. E., Vårvik, F. T., Larsen, S., Haugen, A. S., van den Tillaar, R., & Bjørnsen, T. (2023). Effect of free-weight vs. machine-based strength training on maximal strength, hypertrophy and jump performance: A systematic review and meta-analysis. *BMC Sports Science, Medicine and Rehabilitation*, 15, 103. https://doi.org/10.1186/s13102-023-00713-4
+6. Kassiano, W., Nunes, J. P., Costa, B., Ribeiro, A. S., Schoenfeld, B. J., & Cyrino, E. S. (2022). Does varying resistance exercises promote superior muscle hypertrophy and strength gains? A systematic review. *Journal of Strength and Conditioning Research*, 36(6), 1753-1762. https://doi.org/10.1519/JSC.0000000000004258
+7. Kassiano, W., Costa, B., Kunevaliki, G., Soares, D., Zacarias, G., Manske, I., Takaki, Y., Ruggiero, M. F., Stavinski, N., Francsuel, J., Tricoli, I., Carneiro, M. A. S., & Cyrino, E. S. (2023). Greater gastrocnemius muscle hypertrophy after partial range of motion training performed at long muscle lengths. *Journal of Strength and Conditioning Research*, 37(9), 1746-1753. https://doi.org/10.1519/JSC.0000000000004460
+8. Kassiano, W., Costa, B., Kunevaliki, G., Lisboa, F., Prado, A., Alves, L., Tricoli, I., Stavinski, N., Francsuel, J., & Cyrino, E. S. (2026). Comparison of muscle hypertrophy and strength adaptations induced by back squat and leg extension resistance exercises. *Journal of Strength and Conditioning Research*, 40(4), 367-376. https://doi.org/10.1519/JSC.0000000000005338
+9. Kobayashi, Y., Maeo, S., Eihara, Y., Ono, M., Sato, M., Sugiyama, T., Kanehisa, H., & Isaka, T. (2026). Exercise-specific preferential hypertrophy of individual elbow flexor muscles after incline versus preacher dumbbell curl training. *Journal of Sports Sciences*, 1-14. https://doi.org/10.1080/02640414.2026.2741751
+10. Larsen, S., Sandvik Kristiansen, B., Swinton, P. A., Wolf, M., Bao Fredriksen, A., Nygaard Falch, H., van den Tillaar, R., & Østerås Sandberg, N. (2025). The effects of hip flexion angle on quadriceps femoris muscle hypertrophy in the leg extension exercise. *Journal of Sports Sciences*, 43(2), 210-221. https://doi.org/10.1080/02640414.2024.2444713
+11. Maeo, S., Wu, Y., Huang, M., Sakurai, H., Kusagawa, Y., Sugiyama, T., Kanehisa, H., & Isaka, T. (2023). Triceps brachii hypertrophy is substantially greater after elbow extension training performed in the overhead versus neutral arm position. *European Journal of Sport Science*, 23(7), 1240-1250. https://doi.org/10.1080/17461391.2022.2100279
+12. Morton, R. W., Oikawa, S. Y., Wavell, C. G., Mazara, N., McGlory, C., Quadrilatero, J., Baechler, B. L., Baker, S. K., & Phillips, S. M. (2016). Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in resistance-trained young men. *Journal of Applied Physiology*, 121(1), 129-138. https://doi.org/10.1152/japplphysiol.00154.2016
+13. Morton, R. W., Murphy, K. T., McKellar, S. R., Schoenfeld, B. J., Henselmans, M., Helms, E., Aragon, A. A., Devries, M. C., Banfield, L., Krieger, J. W., & Phillips, S. M. (2018). A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults. *British Journal of Sports Medicine*, 52(6), 376-384. https://doi.org/10.1136/bjsports-2017-097608
+14. Ogasawara, R., Yasuda, T., Ishii, N., & Abe, T. (2013). Comparison of muscle hypertrophy following 6-month of continuous and periodic strength training. *European Journal of Applied Physiology*, 113(4), 975-985. https://doi.org/10.1007/s00421-012-2511-9
+15. Pareja-Blanco, F., Rodríguez-Rosell, D., Sánchez-Medina, L., Sanchis-Moysi, J., Dorado, C., Mora-Custodio, R., Yáñez-García, J. M., Morales-Alamo, D., Pérez-Suárez, I., Calbet, J. A. L., & González-Badillo, J. J. (2017). Effects of velocity loss during resistance training on athletic performance, strength gains and muscle adaptations. *Scandinavian Journal of Medicine & Science in Sports*, 27(7), 724-735. https://doi.org/10.1111/sms.12678
+16. Pedrosa, G. F., Pereira, M. R., & Kassiano, W. (2026). The interplay between muscle length, range of motion, and exercise selection: A review. *Sports Medicine International Open*, 10, a27337605. https://doi.org/10.1055/a-2733-7605
+17. Pelland, J. C., Remmert, J. F., Robinson, Z. P., Hinson, S. R., & Zourdos, M. C. (2026). The resistance training dose response: Meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains. *Sports Medicine*, 56(2), 481-505. https://doi.org/10.1007/s40279-025-02344-w
+18. Plotkin, D., Coleman, M., Van Every, D., Maldonado, J., Oberlin, D., Israetel, M., Feather, J., Alto, A., Vigotsky, A. D., & Schoenfeld, B. J. (2022). Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations. *PeerJ*, 10, e14142. https://doi.org/10.7717/peerj.14142
+19. Rabello, R., Bertozzi, F., Hauschild de Freitas, I. L., Molinari, T., Roncada, C., Sforza, C., Rodrigues, R., & Tiggemann, C. L. (2024). Activation of the three deltoid muscle portions during common strengthening exercises: A systematic review. *Journal of Bodywork and Movement Therapies*, 40, 1309-1325. https://doi.org/10.1016/j.jbmt.2022.12.002
+20. Refalo, M. C., Helms, E. R., Robinson, Z. P., Hamilton, D. L., & Fyfe, J. J. (2024). Similar muscle hypertrophy following eight weeks of resistance training to momentary muscular failure or with repetitions-in-reserve in resistance-trained individuals. *Journal of Sports Sciences*, 42(1), 85-101. https://doi.org/10.1080/02640414.2024.2321021
+21. Robinson, Z. P., Pelland, J. C., Remmert, J. F., Refalo, M. C., Jukic, I., Steele, J., & Zourdos, M. C. (2024). Exploring the dose-response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: A series of meta-regressions. *Sports Medicine*, 54(9), 2209-2231. https://doi.org/10.1007/s40279-024-02069-2
+22. Rodríguez-Ridao, D., Antequera-Vique, J. A., Martín-Fuentes, I., & Muyor, J. M. (2020). Effect of five bench inclinations on the electromyographic activity of the pectoralis major, anterior deltoid, and triceps brachii during the bench press exercise. *International Journal of Environmental Research and Public Health*, 17(19), 7339. https://doi.org/10.3390/ijerph17197339
+23. Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2016). Effects of resistance training frequency on measures of muscle hypertrophy: A systematic review and meta-analysis. *Sports Medicine*, 46(11), 1689-1697. https://doi.org/10.1007/s40279-016-0543-8
+24. Schoenfeld, B. J., Ogborn, D., & Krieger, J. W. (2017). Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis. *Journal of Sports Sciences*, 35(11), 1073-1082. https://doi.org/10.1080/02640414.2016.1210197
+25. Singer, A., Wolf, M., Generoso, L., Arias, E., Delcastillo, K., Echevarria, E., Martinez, A., Androulakis Korakakis, P., Refalo, M. C., Swinton, P. A., & Schoenfeld, B. J. (2024). Give it a rest: A systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy. *Frontiers in Sports and Active Living*, 6, 1429789. https://doi.org/10.3389/fspor.2024.1429789
+26. Škarabot, J., Brownstein, C. G., Casolo, A., Del Vecchio, A., & Ansdell, P. (2021). The knowns and unknowns of neural adaptations to resistance training. *European Journal of Applied Physiology*, 121(3), 675-685. https://doi.org/10.1007/s00421-020-04567-3
+27. Varovic, D., Wolf, M., Schoenfeld, B. J., Steele, J., Grgic, J., & Mikulic, P. (2025). Does muscle length influence regional hypertrophy? A systematic review and meta-analysis. *International Journal of Sports Medicine*, 46(14), 1027-1036. https://doi.org/10.1055/a-2615-4935
+28. Wolf, M., Androulakis Korakakis, P., Piñero, A., Mohan, A. E., Hermann, T., Augustin, F., Sapuppo, M., Lin, B., Coleman, M., Burke, R., Nippard, J., Swinton, P. A., & Schoenfeld, B. J. (2025). Lengthened partial repetitions elicit similar muscular adaptations as full range of motion repetitions during resistance training in trained individuals. *PeerJ*, 13, e18904. https://doi.org/10.7717/peerj.18904
+29. Zhang, X., Weakley, J., Li, H., Li, Z., & García-Ramos, A. (2025). Superset versus traditional resistance training prescriptions: A systematic review and meta-analysis exploring acute and chronic effects on mechanical, metabolic, and perceptual variables. *Sports Medicine*, 55(4), 953-975. https://doi.org/10.1007/s40279-025-02176-8
 ---
 
 Text and figures in this repository are original work, released under the [CC BY 4.0](LICENSE) license. This is general information, not medical advice. Consult a qualified professional for personal guidance.
