@@ -41,7 +41,7 @@ Two constraints shape everything else: time and recovery. A routine is a budget.
 
 Exercises are interchangeable parts; patterns are the slots. A routine that covers six patterns with at least one hard exercise each will train every major muscle group, and it is much harder to accidentally skip something.
 
-<div align="center"><img src="assets/fig-squat.svg" width="100%" alt="Squat pattern: bottom position and standing start, with prime movers listed"></div>
+<div align="center"><img src="assets/fig-squat.svg" width="100%" alt="Squat anatomy figure: anterior view of the thighs with the quadriceps and adductor longus highlighted, hip, knee and ankle lines marked, and a side column with start and end positions, joint angle curves and muscle timing"></div>
 
 The six slots used here:
 
@@ -56,7 +56,7 @@ Each pattern below gets a diagram, a prime-mover list, the joint actions involve
 
 ### 2.1 Squat
 
-<div align="center"><img src="assets/fig-squat.svg" width="100%" alt="Squat pattern diagram: bottom position and standing start, with prime movers and joint actions"></div>
+<div align="center"><img src="assets/fig-squat.svg" width="100%" alt="Squat anatomy figure: anterior view of the thighs with the quadriceps and adductor longus highlighted, hip, knee and ankle lines marked, and a side column with start and end positions, joint angle curves and muscle timing"></div>
 
 The squat is the knee-dominant lower-body pattern: hips and knees flex under axial load, then extend. It is the most efficient way to load the quadriceps through a long range while also training the glutes and adductors.
 
@@ -72,7 +72,7 @@ Depth is not cosmetic. The quadriceps reach their longest position near the bott
 
 ### 2.2 Hinge
 
-<div align="center"><img src="assets/fig-hinge.svg" width="100%" alt="Hinge pattern diagram: top position with the bar at the thighs and the hinged position with the bar at the shins"></div>
+<div align="center"><img src="assets/fig-hinge.svg" width="100%" alt="Hinge anatomy figure: posterior view from the lower back to the feet with the hamstrings, gluteus maximus and erector spinae highlighted, hip and knee lines marked, and a side column with start and end positions, joint angle curves and muscle timing"></div>
 
 The hinge is the hip-dominant pattern: the knees stay nearly fixed while the hips travel backward, and the spine resists flexion under load. It is the main direct stimulus for the hamstrings, which squat-and-press routines tend to under-train, and it loads the glutes and spinal erectors heavily.
 
@@ -88,7 +88,7 @@ The bar drags along the legs, and the hips travel back rather than down. Stop wh
 
 ### 2.3 Horizontal push
 
-<div align="center"><img src="assets/fig-horizontal-push.svg" width="100%" alt="Horizontal push diagram: bar at chest and lockout positions, with elbow angle marked"></div>
+<div align="center"><img src="assets/fig-horizontal-push.svg" width="100%" alt="Horizontal push anatomy figure: anterior view of the chest and shoulder with the pectoralis major and anterior deltoid highlighted, shoulder and elbow lines marked, and a side column with bench press positions, joint angle curves and muscle timing"></div>
 
 The bar travels toward and away from the chest. Prime movers: pectoralis major (both heads), anterior deltoid, triceps brachii. The scapulae stay retracted and pinned to the bench, and the forearms stay close to vertical at contact.
 
@@ -102,7 +102,7 @@ Bench angle changes which region of the chest receives the most stimulation. Ele
 
 ### 2.4 Vertical push
 
-<div align="center"><img src="assets/fig-vertical-push.svg" width="100%" alt="Vertical push diagram: rack position and overhead lockout with the bar path marked"></div>
+<div align="center"><img src="assets/fig-vertical-push.svg" width="100%" alt="Vertical push anatomy figure: anterior view of the shoulder and upper chest with the deltoid, upper pectoral fibres and serratus anterior highlighted, shoulder and elbow lines marked, and a side column with press positions, joint angle curves and muscle timing"></div>
 
 Pressing overhead. Prime movers: deltoids (anterior and middle heads), triceps brachii, upper pectoralis, serratus anterior. The joint actions are shoulder flexion and abduction with scapular upward rotation, which is why a healthy lockout involves the shoulder blades moving, not just the arms.
 
@@ -116,7 +116,7 @@ Keep the ribs down and the glutes braced. A press that starts with a backward le
 
 ### 2.5 Horizontal pull
 
-<div align="center"><img src="assets/fig-horizontal-pull.svg" width="100%" alt="Horizontal pull diagram: arms extended and bar at the lower ribs positions"></div>
+<div align="center"><img src="assets/fig-horizontal-pull.svg" width="100%" alt="Horizontal pull anatomy figure: posterior view of the mid back with the trapezius, latissimus dorsi, posterior deltoid and rhomboid highlighted, shoulder and elbow lines marked, and a side column with row positions, joint angle curves and muscle timing"></div>
 
 Pulling the load toward the torso. Prime movers: mid and lower trapezius, rhomboids, latissimus dorsi, rear deltoids, with the elbow flexors assisting. The joint actions are shoulder horizontal abduction and extension with scapular retraction.
 
@@ -130,7 +130,7 @@ The torso stays fixed and the bar arrives at the lower ribs, not the neck. Drive
 
 ### 2.6 Vertical pull
 
-<div align="center"><img src="assets/fig-vertical-pull.svg" width="100%" alt="Vertical pull diagram: overhead reach and bar to upper chest positions with the cable path marked"></div>
+<div align="center"><img src="assets/fig-vertical-pull.svg" width="100%" alt="Vertical pull anatomy figure: posterior view of the back and arm with the latissimus dorsi, teres major and posterior deltoid highlighted, shoulder and elbow lines marked, and a side column with pull-up positions, joint angle curves and muscle timing"></div>
 
 Pulling from overhead. Prime movers: latissimus dorsi, teres major, biceps brachii, brachialis, and the forearm flexors as grip. The joint actions are shoulder adduction and extension with scapular depression.
 
@@ -352,7 +352,7 @@ A workable spreadsheet shape: Date | Exercise | Load | Reps per set | RIR (last 
 
 ---
 
-Text and figures in this repository are original work, released under the [CC BY 4.0](LICENSE) license. This is general information, not medical advice. Consult a qualified professional for personal guidance.
+Text and original annotation in this repository are released under the [CC BY 4.0](LICENSE) license. The six anatomy figures adapt the OpenStax *Anatomy and Physiology* muscle plates (figure 11.5), also CC BY 4.0. Labels were removed, the plates were cropped and recoloured, and the callouts, pose panels and charts are original. This is general information, not medical advice. Consult a qualified professional for personal guidance.
 
 
 
