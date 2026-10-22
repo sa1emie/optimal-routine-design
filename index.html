@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Designing an (almost) optimal hypertrophy routine</title>
+<meta name="description" content="What actually drives muscle growth, ranked by how much it matters. Volume, effort, progression and the six movement patterns, with 20 references and six annotated anatomy figures.">
+<meta name="author" content="Salem Yakoob">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Designing an (almost) optimal hypertrophy routine">
+<meta property="og:description" content="What actually drives muscle growth, ranked by how much it matters. Volume, effort, progression and the six movement patterns.">
+<link rel="canonical" href="https://sa1emie.github.io/optimal-routine-design/">
+<style>
+  :root{
+    --ink:#171717;
+    --ink-soft:#4a4a4a;
+    --ink-faint:#6b6b6b;
+    --paper:#ffffff;
+    --panel:#fbfbfa;
+    --line:#e4e1dc;
+    --line-strong:#171717;
+    --red:#c21807;
+    --display:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --body:Georgia,"Iowan Old Style","Times New Roman",serif;
+    --measure:64ch;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--body);font-size:18px;line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  a{color:var(--ink);text-decoration-color:var(--red);text-underline-offset:3px}
+  a:hover{color:var(--red)}
+  a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  .skip{position:absolute;left:-9999px}
+  .skip:focus{left:16px;top:16px;background:#fff;padding:10px 14px;z-index:20;border:1px solid var(--ink)}
+
+  header.top{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.2) blur(4px);z-index:10}
+  .top .wrap{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 24px;min-height:64px;padding-top:16px;padding-bottom:16px}
+  .wordmark{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:-0.01em;text-decoration:none}
+  nav{display:flex;gap:22px;flex-wrap:wrap}
+  nav a{font-family:var(--display);font-size:14px;color:var(--ink-soft);text-decoration:none}
+  nav a:hover{color:var(--red)}
+
+  .hero{padding:84px 0 56px;border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--display);font-size:14px;color:var(--red);margin:0 0 18px}
+  h1{font-family:var(--display);font-size:clamp(38px,6.4vw,68px);line-height:1.03;letter-spacing:-0.035em;font-weight:700;margin:0 0 26px;max-width:15ch}
+  .standfirst{font-size:clamp(19px,2.2vw,23px);line-height:1.55;color:var(--ink-soft);max-width:56ch;margin:0 0 34px}
+  .actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px}
+  .btn{font-family:var(--display);font-size:15px;font-weight:600;padding:13px 20px;border:1px solid var(--ink);text-decoration:none;display:inline-block}
+  .btn.primary{background:var(--ink);color:#fff}
+  .btn.primary:hover{background:var(--red);border-color:var(--red);color:#fff}
+  .btn.ghost:hover{border-color:var(--red)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;border-top:1px solid var(--line);padding-top:24px;max-width:760px}
+  .stat b{display:block;font-family:var(--display);font-size:30px;letter-spacing:-0.03em;line-height:1.1}
+  .stat span{display:block;font-family:var(--display);font-size:13px;color:var(--ink-faint);margin-top:4px}
+
+  section{padding:64px 0;border-bottom:1px solid var(--line)}
+  h2{font-family:var(--display);font-size:clamp(26px,3.4vw,34px);line-height:1.12;letter-spacing:-0.025em;margin:0 0 10px;font-weight:700}
+  .section-note{font-family:var(--display);font-size:15px;color:var(--ink-faint);margin:0 0 30px;max-width:60ch}
+  p{max-width:var(--measure);margin:0 0 18px}
+  .lede{font-size:21px;line-height:1.55}
+
+  .levers{list-style:none;padding:0;margin:30px 0 0;max-width:var(--measure)}
+  .levers li{padding:18px 0;border-top:1px solid var(--line)}
+  .levers li:first-child{border-top:2px solid var(--line-strong)}
+  .levers b{font-family:var(--display);font-size:17px;letter-spacing:-0.01em;display:block;margin-bottom:4px}
+  .levers span{color:var(--ink-soft)}
+
+  .pull{margin:40px 0 0;padding:6px 0 6px 24px;border-left:3px solid var(--red);font-size:23px;line-height:1.45;max-width:30ch}
+
+  table{width:100%;border-collapse:collapse;margin-top:28px;font-size:15px}
+  thead th{font-family:var(--display);font-size:13px;font-weight:600;text-align:left;color:var(--ink-faint);padding:0 12px 10px 0;border-bottom:2px solid var(--line-strong)}
+  tbody td{padding:14px 12px 14px 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.45}
+  tbody td:first-child{font-family:var(--display);font-weight:600;font-size:14px;white-space:nowrap}
+  tbody td:last-child{color:var(--ink-soft)}
+
+  .figblock{display:grid;grid-template-columns:1fr 340px;gap:44px;align-items:start}
+  .figblock figure{margin:0}
+  .figblock img{width:100%;height:auto;display:block;border:1px solid var(--line);background:#fff}
+  .figblock figcaption{font-family:var(--display);font-size:13px;color:var(--ink-faint);margin-top:10px;line-height:1.5}
+
+  .contents{margin:26px 0 0;padding:0;list-style:none;columns:2;column-gap:44px;max-width:760px}
+  .contents li{font-family:var(--display);font-size:15px;padding:9px 0;border-bottom:1px solid var(--line);break-inside:avoid}
+  .contents a{text-decoration:none}
+  .contents a:hover{color:var(--red)}
+  .contents em{font-style:normal;color:var(--ink-faint);margin-right:10px}
+
+  .limits{background:var(--panel);border:1px solid var(--line);padding:34px 36px;margin-top:8px}
+  .limits p:last-child{margin-bottom:0}
+
+  footer{padding:44px 0 60px;font-family:var(--display);font-size:13px;color:var(--ink-faint);line-height:1.7}
+  footer p{max-width:78ch}
+  footer a{color:var(--ink-soft)}
+
+  @media (max-width:820px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .figblock{grid-template-columns:1fr}
+    .contents{columns:1}
+    .contents li:last-child{border-bottom:0}
+    table{font-size:14px;table-layout:fixed}
+    thead th:last-child,tbody td:last-child{display:none}
+    thead th:first-child,tbody td:first-child{width:38%;white-space:normal}
+    thead th:nth-child(2),tbody td:nth-child(2){width:62%}
+    nav{gap:12px}
+    section{padding:52px 0}
+    .hero{padding:56px 0 44px}
+  }
+  @media (max-width:560px){
+    body{font-size:17px}
+    .wrap{padding:0 20px}
+    .top .wrap{gap:12px}
+    nav{gap:14px}
+    nav a{font-size:13px}
+    .actions{flex-direction:column;align-items:stretch}
+    .btn{text-align:center}
+    .limits{padding:24px 20px}
+  }
+  @media print{
+    header.top,nav,.actions{display:none}
+    body{font-size:11pt}
+    section{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="wordmark" href="#top">Optimal routine design</a>
+    <nav aria-label="Sections">
+      <a href="#model">The model</a>
+      <a href="#patterns">Patterns</a>
+      <a href="#figures">Figures</a>
+      <a href="#contents">Contents</a>
+      <a href="https://github.com/sa1emie/optimal-routine-design">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <div class="hero" id="top">
+      <p class="kicker">Evidence review</p>
+      <h1>Designing an (almost) optimal hypertrophy routine</h1>
+      <p class="standfirst">What actually drives muscle growth, ranked by how much it matters. Volume, effort, progression, and the six patterns that cover the body.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/sa1emie/optimal-routine-design">Read the full analysis</a>
+        <a class="btn ghost" href="#model">Start with the model</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>6,600</b><span>words in the full document</span></div>
+        <div class="stat"><b>20</b><span>references, all linked</span></div>
+        <div class="stat"><b>6</b><span>annotated anatomy figures</span></div>
+        <div class="stat"><b>10-20</b><span>hard sets per muscle, weekly</span></div>
+      </div>
+    </div>
+
+    <section id="model">
+      <h2>The argument in short</h2>
+      <p class="section-note">The hierarchy the full document defends, minus the citations.</p>
+
+      <p class="lede">Exercise selection gets most of the argument and deserves the least of it. What decides the result is duller: whether you keep training, whether the sets get harder, how many hard sets land each week, and how close to failure they stop. Everything else adjusts those levers.</p>
+
+      <ul class="levers">
+        <li><b>Adherence over years</b><span>Quit and the plan stops mattering. A middling routine you still follow through a bad month wins against a perfect one you drop by week six.</span></li>
+        <li><b>Progressive overload with effort</b><span>Push reps or load while effort holds steady. Strength climbs faster than size in the first months, mostly because the nervous system is learning the movement. Expect it and keep going.</span></li>
+        <li><b>Weekly volume inside a band</b><span>Growth tracks hard sets until it stops tracking them. For most lifters, roughly 10 to 20 hard sets per muscle each week is a defensible range, fuzzy at both edges.</span></li>
+        <li><b>Proximity to failure</b><span>End a set 0 to 3 reps shy of failure and it grows more than one that stops well short. Strength barely cares about the difference.</span></li>
+        <li><b>Coverage</b><span>The six patterns are a coverage check, not a creed.</span></li>
+      </ul>
+
+      <p style="margin-top:34px">Some popular topics earn less than they get. Hormone spikes after a session do not predict growth. Loaded with the same effort and volume, machines build about as much muscle as free weights. Rest beyond a sensible minimum is close to irrelevant. Order matters mostly because it decides how good the later sets are.</p>
+
+      <p class="pull">Training is a budget. Each hard set draws on recovery, and the return shrinks as weekly volume rises.</p>
+    </section>
+
+    <section id="patterns">
+      <h2>The six patterns</h2>
+      <p class="section-note">Enough coverage to leave no muscle under-dosed, using the fewest exercises that will do it.</p>
+
+      <table>
+        <thead>
+          <tr><th scope="col">Pattern</th><th scope="col">Prime movers</th><th scope="col">Joint action</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Squat</td><td>Quadriceps, gluteus maximus, adductor magnus</td><td>Hip, knee and ankle extension</td></tr>
+          <tr><td>Hinge</td><td>Hamstrings, gluteus maximus, erector spinae</td><td>Hip extension, slight knee flexion</td></tr>
+          <tr><td>Horizontal push</td><td>Pectoralis major, anterior deltoid, triceps</td><td>Shoulder horizontal adduction, elbow extension</td></tr>
+          <tr><td>Vertical push</td><td>Deltoids, triceps, upper pectoralis, serratus anterior</td><td>Shoulder flexion and abduction, elbow extension</td></tr>
+          <tr><td>Horizontal pull</td><td>Mid and lower traps, rhomboids, latissimus dorsi, posterior deltoid, elbow flexors</td><td>Shoulder horizontal abduction, elbow flexion, scapular retraction</td></tr>
+          <tr><td>Vertical pull</td><td>Latissimus dorsi, teres major, biceps, brachialis</td><td>Shoulder adduction and extension, elbow flexion, scapular depression</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="figures">
+      <div class="figblock">
+        <div>
+          <h2>How the figures were made</h2>
+          <p>Every figure is a single SVG file sitting on a CC BY 4.0 anatomy plate from OpenStax. I cropped and recoloured the plate, traced each muscle by hand, then drew the outline back over the anatomy to check the fit before adding callouts, joint lines and timing charts.</p>
+          <p>Because the base is CC BY 4.0, the figures can be reused with attribution. Nothing is stock art or a redrawn approximation of a different body.</p>
+          <p><a href="https://github.com/sa1emie/optimal-routine-design/tree/main/assets">Browse the six figures</a></p>
+        </div>
+        <figure>
+          <img src="assets/fig-squat.svg" alt="Annotated anterior view of the thighs with the quadriceps and adductor longus highlighted, joint lines marked, and a side column showing start and end positions, joint angle curves and muscle timing">
+          <figcaption>Squat: quadriceps and adductor longus, with the joint angles and muscle timing for the rep.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contents">
+      <h2>What is in the full document</h2>
+      <p class="section-note">Written to be read in order, or used as a reference.</p>
+      <ul class="contents">
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#1-the-model-in-one-page"><em>1</em>The model in one page</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#2-the-six-movement-patterns"><em>2</em>The six movement patterns</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#3-programming-variables"><em>3</em>Programming variables</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#4-anatomy-of-a-session"><em>4</em>Anatomy of a session</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#5-progression-stalls-and-rotation"><em>5</em>Progression, stalls and rotation</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#6-periodization-and-deloads"><em>6</em>Periodization and deloads</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#7-a-worked-example-week"><em>7</em>A worked example week</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#8-logging-what-matters"><em>8</em>Logging what matters</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#9-limits-of-this-analysis"><em>9</em>Limits of this analysis</a></li>
+        <li><a href="https://github.com/sa1emie/optimal-routine-design#references"><em>10</em>References</a></li>
+      </ul>
+    </section>
+
+    <section id="limits" style="border-bottom:0">
+      <div class="limits">
+        <h2 style="font-size:24px">Limits</h2>
+        <p>The trials are small, several levers rest on indirect evidence, and individual response varies. Where the evidence stops, the document says so rather than papering over it.</p>
+        <p>This is general information, not medical advice. If you have an injury or a health condition, talk to a clinician who can examine you.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Text and annotation released under <a href="https://github.com/sa1emie/optimal-routine-design/blob/main/LICENSE">CC BY 4.0</a>. Base figures: OpenStax, <em>Anatomy and Physiology</em>, figure 11.5, CC BY 4.0. Labels removed, plates cropped and recoloured.</p>
+    <p><a href="https://github.com/sa1emie/optimal-routine-design">Source repository</a> &middot; Last updated October 2026</p>
+  </div>
+</footer>
+</body>
+</html>

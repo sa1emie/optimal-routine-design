@@ -6,6 +6,8 @@ This is a general resource, not a personalized program and not medical advice. T
 
 Why "almost"? Because the gap between a good routine and a theoretically perfect one is small, and most arguments online are about that gap. The parts that are well established are also boring: train each muscle with enough hard sets, close enough to failure, through a full range of motion, and add load or reps for months. The parts that remain uncertain are flagged as such.
 
+> **Start here.** [The one-page version](https://sa1emie.github.io/optimal-routine-design/) covers the model, the six patterns and the figures in a short read. This README is the full document, with the evidence and the caveats.
+
 ## Contents
 
 - [1. The model in one page](#1-the-model-in-one-page)
